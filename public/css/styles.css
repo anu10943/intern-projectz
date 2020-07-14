@@ -1,0 +1,12 @@
+ .row{
+     margin:auto;
+ }
+.home-button{
+     flex:0 0 10%;
+      
+     
+}
+.home-container{
+    text-align: center;
+    padding: 3em;
+}
