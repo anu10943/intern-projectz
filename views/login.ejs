@@ -6,19 +6,31 @@
     <div class="card">
         <div class="card-body">
             <form action="/login" method="POST">
-                 
+                <!-- <div class="form-group">
+                    <label for="username">Username</label>
+                    <input class="form-control" type="text" name="username" placeholder="username">
+                </div>    -->
                 <div class="form-group">
                     <label for="email">Email</label>
                     <input class="form-control" type="email" name="email" placeholder="email">
                 </div>
                 <div class="form-group">
                     <label for="password">Password</label>
-                    <input class="form-control" name="password" placeholder="password" >
+                    <input class="form-control" type="password" name="password" placeholder="password" >
                 </div>
                  
                 <button class="btn btn-lg btn-dark">Login</button>
             </form>
         </div>
+        <div class="container mt-4 mb-4  ">
+            <div class="col  ">
+                 
+                        <a class="btn btn-block btn-google" href="/auth/google" role="button">
+                            <i class="fab fa-google  "></i>
+                            Log in with Google
+                        </a>
+                     
+            </div>
     </div>
 </div>
 </div>
